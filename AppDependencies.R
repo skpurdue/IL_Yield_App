@@ -6,7 +6,7 @@ library(plyr)
 library(shiny)
 
 #Reading to the csv file and correcting labels, formats, etc. 
-agridata = read.csv('/users/Sydney/IL-yield-trials/Data/Descriptively_Named_Data/1934to1937+1943to2015.csv')
+agridata = read.csv('1934to1937+1943to2015.csv')
 agridata$DoP = as.Date(agridata$DoP, format='%d-%b')
 agridata$DoH = as.Date(agridata$DoH, format='%d-%b')
 agridata = rename(agridata, c('Yield' = 'Yield_in_bushels_per_acre', 'Moisture' = 'Moisture_content', 

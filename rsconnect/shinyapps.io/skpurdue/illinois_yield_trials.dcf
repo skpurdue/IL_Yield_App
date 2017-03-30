@@ -1,0 +1,11 @@
+name: illinois_yield_trials
+title: Illinois Yield Trials
+account: skpurdue
+server: shinyapps.io
+appId: 168505
+bundleId: 771165
+url: https://skpurdue.shinyapps.io/illinois_yield_trials/
+when: 1490912444.12509
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: README.md

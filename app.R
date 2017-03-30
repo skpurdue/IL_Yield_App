@@ -13,7 +13,7 @@
 # documentation exists in this file for the app functionalities that exist (3/30/2017)
 
 #Call to file with crucial package prerequisites and helper functions
-source("/users/Sydney/IL-yield-trials/R_Scripts/AppDependencies.R")
+source("AppDependencies.R")
 
 ui <- fluidPage(
   #Formatting
